@@ -12,7 +12,7 @@ public class QueryingData {
    
     private Connection connect() {
         // SQLite connection string
-        String url = "jdbc:sqlite:C://sqlite/db/navayshree.db";
+        String url = "jdbc:sqlite:C://sqlite/db/navyashree.db";
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
